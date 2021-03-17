@@ -1,0 +1,93 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1615949401969' stop='1615949431447'>
+    <name>interaction with web element</name>
+    <title>interaction with web element</title>
+    <test-cases>
+        <test-case start='1615949401969' status='passed' stop='1615949422939'>
+            <name>Click on signin</name>
+            <title>Click on signin</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.82'/>
+            </parameters>
+            <steps>
+                <step start='1615949402030' status='passed' stop='1615949412763'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='306d8814-46d8-4554-b0d3-dc036afbe55c-attachment.json' type='application/json' size='45'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1615949422777' status='passed' stop='1615949422938'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='2edb298a-ff81-4f1e-aad6-066624ebed2f-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1615949422939' status='broken' stop='1615949431446'>
+            <name>adding item to the cart</name>
+            <title>adding item to the cart</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.82'/>
+            </parameters>
+            <steps>
+                <step start='1615949422941' status='passed' stop='1615949422970'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c15ce85c-d9fb-412f-a6dd-07111ff43bc1-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='1a6dfd6b-7350-4e05-a932-56c289ba4716-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1615949422983' status='passed' stop='1615949426004'>
+                    <name>POST /session/:sessionId/element/7e0fa082-c85a-4caa-9143-db62479b9ded/click</name>
+                    <title>POST /session/:sessionId/element/7e0fa082-c85a-4caa-9143-db62479b9ded/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615949431021' status='passed' stop='1615949431068'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e47514c1-8522-41d8-a2f4-2d865bb504ef-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='ef045ea2-859c-48f1-8c86-e5cb3b8024f1-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1615949431077' status='passed' stop='1615949431445'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='cb6bbca4-4130-489e-b84d-83202c528609-attachment.png' type='image/png' size='232742'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'click' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'click' of undefined
+                    at AddItem.addToCart (C:\Users\91887\Documents\WebdriverIO_Practice\pages\additem.js:34:21)
+                    at Context.&lt;anonymous> (C:\Users\91887\Documents\WebdriverIO_Practice\test\webpage.js:62:17)
+                    at Context.executeSync (C:\Users\91887\Documents\WebdriverIO_Practice\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\91887\Documents\WebdriverIO_Practice\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Return to Home\"}\n  (Session info: chrome=89.0.4389.82)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x00DFE7D3+124883]\n\tOrdinal0 [0x00DFE7B1+124849]\n\tGetHandleVerifier [0x01048688+193832]\n\tGetHandleVerifier [0x0106C478+340760]\n\tGetHandleVerifier [0x0108EE42+482530]\n\tGetHandleVerifier [0x010816BA+427354]\n\tGetHandleVerifier [0x0108D6EB+476555]\n\tGetHandleVerifier [0x0108154B+426987]\n\tGetHandleVerifier [0x01064FFD+310941]\n\tGetHandleVerifier [0x01065D8E+314414]\n\tGetHandleVerifier [0x01065D19+314297]\n\tGetHandleVerifier [0x011231EC+1089676]\n\tGetHandleVerifier [0x011217C9+1082985]\n\tGetHandleVerifier [0x011213A3+1081923]\n\tGetHandleVerifier [0x0121D9FD+2115741]\n\tOrdinal0 [0x00F4B82E+1488942]\n\tOrdinal0 [0x00EE5A7D+1071741]\n\tOrdinal0 [0x00EE559B+1070491]\n\tOrdinal0 [0x00EE54B1+1070257]\n\tOrdinal0 [0x00F1FF53+1310547]\n\tBaseThreadInitThunk [0x7757FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77817C7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77817C4E+238]\n"
+}

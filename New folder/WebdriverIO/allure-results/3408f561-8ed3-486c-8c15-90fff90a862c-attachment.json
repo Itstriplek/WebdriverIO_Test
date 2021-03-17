@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "(//a[span='Add to cart'])[2]"
+}

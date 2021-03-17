@@ -1,0 +1,133 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1615949806700' stop='1615949836741'>
+    <name>interaction with web element</name>
+    <title>interaction with web element</title>
+    <test-cases>
+        <test-case start='1615949806701' status='passed' stop='1615949827554'>
+            <name>Click on signin</name>
+            <title>Click on signin</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.82'/>
+            </parameters>
+            <steps>
+                <step start='1615949806767' status='passed' stop='1615949817358'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='d56d90e3-150e-4c9f-9cfd-101eebf33870-attachment.json' type='application/json' size='45'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1615949827364' status='passed' stop='1615949827552'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='a2af0aef-42ed-42e4-ae42-5440f56571ab-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1615949827556' status='broken' stop='1615949836740'>
+            <name>adding item to the cart</name>
+            <title>adding item to the cart</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.82'/>
+            </parameters>
+            <steps>
+                <step start='1615949827564' status='passed' stop='1615949827628'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='988a1823-d980-4dd7-9c44-b5e9d06d1db3-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='b9ad4930-c3f0-4643-97ac-17b01eedaba1-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1615949827652' status='passed' stop='1615949827737'>
+                    <name>POST /session/:sessionId/element/4d591acf-c7d9-4bdd-904d-60a0ec00e225/click</name>
+                    <title>POST /session/:sessionId/element/4d591acf-c7d9-4bdd-904d-60a0ec00e225/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615949832753' status='passed' stop='1615949832785'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='448c2877-e288-444f-bd55-f813d85129af-attachment.json' type='application/json' size='70'/>
+                        <attachment title='Response' source='b13a8b29-4aab-4d86-97b0-f7a234f1a168-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1615949832790' status='passed' stop='1615949835759'>
+                    <name>POST /session/:sessionId/element/5de52f46-c44d-4162-925f-ec724416dba6/click</name>
+                    <title>POST /session/:sessionId/element/5de52f46-c44d-4162-925f-ec724416dba6/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1615949835762' status='passed' stop='1615949836275'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='aacf05e1-f87f-4288-b29b-dc51ce354646-attachment.png' type='image/png' size='126522'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1615949836276' status='passed' stop='1615949836287'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a1258e0d-a734-42a4-8959-ba9defde765a-attachment.json' type='application/json' size='70'/>
+                        <attachment title='Response' source='bfc8bafd-6bd3-4712-879e-db12c90be28a-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1615949836289' status='broken' stop='1615949836739'>
+                    <name>POST /session/:sessionId/element/acbf8191-55fa-49e7-8c51-533f7a3af689/click</name>
+                    <title>POST /session/:sessionId/element/acbf8191-55fa-49e7-8c51-533f7a3af689/click</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1615949836352' status='passed' stop='1615949836738'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='7f156955-a6da-45ed-b2b5-c68dc15fe99e-attachment.png' type='image/png' size='126522'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=89.0.4389.82)</message>
+                <stack-trace>element not interactable
+                  (Session info: chrome=89.0.4389.82)
+                    at Object.getErrorFromResponseBody (C:\Users\91887\Documents\WebdriverIO_Practice\node_modules\webdriver\build\utils.js:189:12)
+                    at WebDriverRequest._request (C:\Users\91887\Documents\WebdriverIO_Practice\node_modules\webdriver\build\request.js:168:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\91887\Documents\WebdriverIO_Practice\node_modules\webdriverio\build\middlewares.js:23:32)
+                    at async Element.runCommandWithHooks (C:\Users\91887\Documents\WebdriverIO_Practice\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Element.runCommandWithHooks (C:\Users\91887\Documents\WebdriverIO_Practice\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Element.wrapCommandFn (C:\Users\91887\Documents\WebdriverIO_Practice\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Element.elementErrorHandlerCallback (C:\Users\91887\Documents\WebdriverIO_Practice\node_modules\webdriverio\build\middlewares.js:44:12)
+                    at AddItem.clickCheckout (C:\Users\91887\Documents\WebdriverIO_Practice\pages\additem.js:41:19)
+                    at Context.&lt;anonymous> (C:\Users\91887\Documents\WebdriverIO_Practice\test\webpage.js:64:17)
+                    at Context.executeSync (C:\Users\91887\Documents\WebdriverIO_Practice\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\91887\Documents\WebdriverIO_Practice\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,82 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1615910946988' stop='1615910947617'>
+    <name>user landing page</name>
+    <title>user landing page</title>
+    <test-cases>
+        <test-case start='1615910946988' status='broken' stop='1615910947589'>
+            <name>verifying user details</name>
+            <title>verifying user details</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.82'/>
+            </parameters>
+            <steps>
+                <step start='1615910947194' status='broken' stop='1615910947589'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='309ea56f-23ee-468e-a499-865407743383-attachment.json' type='application/json' size='73'/>
+                    </attachments>
+                    <steps>
+                        <step start='1615910947302' status='passed' stop='1615910947588'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='2e7b3229-6ea7-4a89-b035-050bc8b5f095-attachment.png' type='image/png' size='5205'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid selector: Unable to locate an element with the xpath expression //span[contains(text(),${fullname})] because of the following error:
+                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[contains(text(),${fullname})]' is not a valid XPath expression.
+                  (Session info: chrome=89.0.4389.82)</message>
+                <stack-trace>invalid selector: Unable to locate an element with the xpath expression //span[contains(text(),${fullname})] because of the following error:
+                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[contains(text(),${fullname})]' is not a valid XPath expression.
+                  (Session info: chrome=89.0.4389.82)
+                    at Object.getErrorFromResponseBody (C:\Users\91887\Documents\WebdriverIO_Practice\node_modules\webdriver\build\utils.js:189:12)
+                    at WebDriverRequest._request (C:\Users\91887\Documents\WebdriverIO_Practice\node_modules\webdriver\build\request.js:168:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at async Browser.$ (C:\Users\91887\Documents\WebdriverIO_Practice\node_modules\webdriverio\build\commands\browser\$.js:68:17)
+                    at async Browser.runCommandWithHooks (C:\Users\91887\Documents\WebdriverIO_Practice\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Browser.runCommandWithHooks (C:\Users\91887\Documents\WebdriverIO_Practice\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Browser.wrapCommandFn (C:\Users\91887\Documents\WebdriverIO_Practice\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at global.$ (C:\Users\91887\Documents\WebdriverIO_Practice\node_modules\@wdio\runner\build\index.js:181:42)
+                    at Context.&lt;anonymous> (C:\Users\91887\Documents\WebdriverIO_Practice\test\landingpage.js:8:20)
+                    at Context.executeSync (C:\Users\91887\Documents\WebdriverIO_Practice\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\91887\Documents\WebdriverIO_Practice\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1615910947589' status='passed' stop='1615910947617'>
+            <name>returning to home</name>
+            <title>returning to home</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.82'/>
+            </parameters>
+            <steps>
+                <step start='1615910947590' status='passed' stop='1615910947609'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='feb93faa-cdba-4f55-bef5-ef981ce8148b-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Response' source='0aae7538-80f8-4204-855e-e1b2be289419-attachment.json' type='application/json' size='1134'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
